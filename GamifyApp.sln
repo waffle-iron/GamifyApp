@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{3304A655-30A4-4E9B-8350-D80ACDC7136C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2FC91590-595A-4A0F-869C-2BC415568AA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B648C506-E363-42FC-8871-853E43D216E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{79D38BC1-0BD5-4840-9F00-694CD98D2A03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{912AD5A8-EF83-4AE0-82A2-B16A2ACFB712}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GamifyApp.Contracts", "GamifyApp.Contracts\GamifyApp.Contracts.xproj", "{99A9E6B6-298D-444E-956E-CB583755EA36}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GamifyApp.Domain", "GamifyApp.Domain\GamifyApp.Domain.xproj", "{F0101C40-B4D3-44B1-B8B5-6F3D4718F1BB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GamifyApp.Infrastructure", "GamifyApp.Infrastructure\GamifyApp.Infrastructure.xproj", "{56EBCBA1-7D4C-4419-B0E1-7E0C078868C4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GamifyApp.API", "GamifyApp.API\GamifyApp.API.xproj", "{EBC21F26-C568-4725-A207-56D45D53662D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99A9E6B6-298D-444E-956E-CB583755EA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A9E6B6-298D-444E-956E-CB583755EA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A9E6B6-298D-444E-956E-CB583755EA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A9E6B6-298D-444E-956E-CB583755EA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0101C40-B4D3-44B1-B8B5-6F3D4718F1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0101C40-B4D3-44B1-B8B5-6F3D4718F1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0101C40-B4D3-44B1-B8B5-6F3D4718F1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0101C40-B4D3-44B1-B8B5-6F3D4718F1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EBCBA1-7D4C-4419-B0E1-7E0C078868C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EBCBA1-7D4C-4419-B0E1-7E0C078868C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EBCBA1-7D4C-4419-B0E1-7E0C078868C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EBCBA1-7D4C-4419-B0E1-7E0C078868C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC21F26-C568-4725-A207-56D45D53662D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC21F26-C568-4725-A207-56D45D53662D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC21F26-C568-4725-A207-56D45D53662D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC21F26-C568-4725-A207-56D45D53662D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99A9E6B6-298D-444E-956E-CB583755EA36} = {3304A655-30A4-4E9B-8350-D80ACDC7136C}
+		{F0101C40-B4D3-44B1-B8B5-6F3D4718F1BB} = {B648C506-E363-42FC-8871-853E43D216E9}
+		{56EBCBA1-7D4C-4419-B0E1-7E0C078868C4} = {2FC91590-595A-4A0F-869C-2BC415568AA5}
+		{EBC21F26-C568-4725-A207-56D45D53662D} = {79D38BC1-0BD5-4840-9F00-694CD98D2A03}
+	EndGlobalSection
+EndGlobal
